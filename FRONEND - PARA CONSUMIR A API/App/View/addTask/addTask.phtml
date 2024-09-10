@@ -1,0 +1,14 @@
+<aside class=" p-5 d-flex justify-content-center align-items-center">
+	<form class="p-3 bg-light rounded form_add_task w-100">
+		<fieldset class="form-group">
+			<label for="name">Insira nome da Tarefa:</label>
+			<input type="text" class="form-control" name="name" placeholder="exemplo: fazer compras" required>
+			<label for="description">Insira uma descrição:</label>
+			<textarea class="form-control" name="description" required></textarea>
+		</fieldset>
+		<fieldset class="form-group text-center my-2">
+			<button class="btn btn-primary rounded text-white font-weight-bold">Adicionar</button>
+			<button type="button" onclick="$('aside').remove()" class="btn btn-danger rounded text-white font-weight-bold">Remover</button>
+		</fieldset>
+	</form>
+</aside>
